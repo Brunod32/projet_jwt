@@ -5,6 +5,8 @@
 <br>
 
 ### Générer les clés publique et privée:
+Créer un dossier jwt dans config.<br>
+
 Dans  git bash, <br>
 - `openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096`, permet de générer la clé privée;
 
